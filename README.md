@@ -20,7 +20,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For command line usage:
+
+    $ counterstring <number>
+
+For library usage:
+
+```ruby
+Counterstring.new(4).to_s # 1*3*
+Counterstring.new(20).to_s # 1*3*5*7*9*12*15*18*2
+```
 
 ## Development
 
